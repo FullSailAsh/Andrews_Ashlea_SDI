@@ -7,13 +7,11 @@
 
 //Dog Years
 //Sparky's age in dog years
-var dogsAge = prompt(How old is Sparky?);
 
-//Multiplying by 7 to find dogs age in "human years"
-var humanAge = dogsAge * 7;
+var dogsAge = prompt("How old is Sparky?");
 
-//Combining variables in string for output
-var sparkysAge = "Sparky is " + humanAge + " human years old, which is " + dogsAge + " in dog years.";
-console.log(sparkysAge);
+//Multiply by seven to find dogs age in human years
 
-//
+var humanYears = dogsAge * 7;
+console.log(humanYears);
+
