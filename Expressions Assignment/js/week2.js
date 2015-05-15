@@ -24,4 +24,13 @@ var lobsters = prompt("How many lobsters a piece do you think they'll each want?
  lobsters *= 1.25;
 console.log(lobsters);
 
+//find out how many ears of corn
+var corn = parseInt(numPeople) * 1;
+
+//find out how much cake to bake
+var cake = parseInt(numPeople) * 4;
+
+//find out how much butter is needed for dipping lobster
+var butter = parseInt(numPeople) * 4 / 8;
+console.log(butter);
 
