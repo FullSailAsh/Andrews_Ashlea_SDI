@@ -1,7 +1,6 @@
-/*
-Ashlea Andrews
-Test JS file
-May the 4th be with you 2015
- */
+//Expressions
 
-//alert("Testing 1, 2, 3 ")
+var a = 3;
+//a ++ ; //a = a + 1 // a +=1
+a --;
+console.log(a)

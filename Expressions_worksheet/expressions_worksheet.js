@@ -12,6 +12,8 @@ var dogsAge = 3;
 //Multiplying by 7 to find dogs age in "human years"
 var humanAge = dogsAge * 7;
 
-//Combining variables for output
+//Combining variables in string for output
 var sparkysAge = "Sparky is " + humanAge + " human years old, which is " + dogsAge + " in dog years.";
 console.log(sparkysAge);
+
+//
