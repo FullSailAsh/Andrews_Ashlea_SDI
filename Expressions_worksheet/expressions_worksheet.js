@@ -18,3 +18,5 @@ var humanYears = dogsAge * 7;
 
 var output = "Sparky is " + humanYears + " years old, which is " + dogsAge + " in dog years.";
 console.log(output);
+
+alert(output);
