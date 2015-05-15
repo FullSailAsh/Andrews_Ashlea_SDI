@@ -80,7 +80,7 @@ var origPrice = prompt("Let's find out how much that costs!\nWhat is the origina
 var discountPercent = prompt("Nice! What discount is being offered?");
 
 //convert discount
-var discount = discountPercent / 100;
+var discount = parseInt(discountPercent) / 100;
 
 //find sale price
 var salePrice = origPrice - (origPrice * discount);
@@ -89,13 +89,13 @@ var salePrice = origPrice - (origPrice * discount);
 var taxPercent = prompt("Say, what's the sales tax in this state?");
 
 //convert tax to decimal
-var tax = taxPercent / 100;
-
+var tax = parseInt(taxPercent) / 100;
 
 
 //find price with sales tax
 var withTax = salePrice + (salePrice * tax );
-console.log(withTax);
+console.log("Your " + item + " was originally $" + origPrice + " but after a discount of " + discountPercent + "% discount, it is now $" + salePrice + " without tax, and $" + withTax + " with tax.");
 
+alert("Your " + item + " was originally $" + origPrice + " but after a discount of " + discountPercent + "% discount, it is now $" + salePrice + " without tax, and $" + withTax + " with tax.");
 
 

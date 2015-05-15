@@ -66,8 +66,8 @@
       <file leaf-file-name="expressions_worksheet.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_worksheet/expressions_worksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8434238">
-              <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.90605426">
+              <caret line="98" column="193" selection-start-line="98" selection-start-column="193" selection-end-line="98" selection-end-column="193" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -108,8 +108,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="371" />
-    <option name="y" value="64" />
+    <option name="x" value="349" />
+    <option name="y" value="39" />
     <option name="width" value="1066" />
     <option name="height" value="576" />
   </component>
@@ -267,7 +267,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="371" y="64" width="1066" height="576" extended-state="0" />
+    <frame x="349" y="39" width="1066" height="576" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -365,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_worksheet/expressions_worksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8434238">
-          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.90605426">
+          <caret line="98" column="193" selection-start-line="98" selection-start-column="193" selection-end-line="98" selection-end-column="193" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
