@@ -51,7 +51,7 @@ console.log("Sparky got " + sparkysShare + " slices of pizza.");
 //tell user how many slices Sparky gets
 alert("If you were fair, Sparky got " + sparkysShare + " slices of pizza.");
 
- */
+
 
 //Average Shopping Bill
 
@@ -65,4 +65,37 @@ var groceryAll = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + grocer
 var grocAvg = groceryAll / 5
 //print
 console.log("You have spent a total of $" + groceryAll + " on groceries over 5 weeks.  That is an average of $" + grocAvg + " per week");
+
+ */
+
+//Discounts
+
+//find out what the item is
+var item = prompt("Hi! What's that that you're buying?");
+
+//find the original price
+var origPrice = prompt("Let's find out how much that costs!\nWhat is the original price?");
+
+//find discount
+var discountPercent = prompt("Nice! What discount is being offered?");
+
+//convert discount
+var discount = discountPercent / 100;
+
+//find sale price
+var salePrice = origPrice - (origPrice * discount);
+
+//find sales tax
+var taxPercent = prompt("Say, what's the sales tax in this state?");
+
+//convert tax to decimal
+var tax = taxPercent / 100;
+
+
+
+//find price with sales tax
+var withTax = salePrice + (salePrice * tax );
+console.log(withTax);
+
+
 
