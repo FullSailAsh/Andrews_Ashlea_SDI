@@ -53,12 +53,23 @@ alert("It will cost $" + pricePP + " per person for this dinner, plus whatever y
 
 
 /* I typed in 8 people
-and 2 lobsters a piece
-the calculator gave me:
+and 2 lobsters a piece.
+The calculator gave me:
 16 lobsters needed --correct
 20 pounds lobster needed --correct
 8 ears of corn --correct
 32 sq. in of cake --correct
 4 sticks of butter --correct
 costing $18.25/person --correct
+ */
+
+/* I typed in 9 people
+and 3 lobsters a piece.
+The calculator gave me:
+27 lobsters needed --correct
+33.75 pounds of lobster --correct
+9 ears of corn --correct
+36 square inches of blueberry cake --correct
+4.5 sticks of butter --correct
+costing $26.6875 per person --correct
  */
