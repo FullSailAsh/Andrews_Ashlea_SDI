@@ -3,7 +3,7 @@
  5/13/2015
  Section 01
  Expressions Worksheet
-
+ */
 
 //Dog Years
 
@@ -66,7 +66,7 @@ var grocAvg = groceryAll / 5
 //print
 console.log("You have spent a total of $" + groceryAll + " on groceries over 5 weeks.  That is an average of $" + grocAvg + " per week");
 
- */
+
 
 //Discounts
 
