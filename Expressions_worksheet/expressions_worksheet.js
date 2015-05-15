@@ -14,7 +14,7 @@ var dogsAge = prompt("Let's find out how old Sparky would be in human years!\nHo
 var humanYears = dogsAge * 7;
 
 //String it together for print
-var output = "Sparky is " + humanYears + " years old, which is " + dogsAge + " in dog years.";
+var output = "Sparky is " + humanYears + " years old in human years, which is " + dogsAge + " in dog years.";
 console.log(output);
 
 //convey answer to user

@@ -32,5 +32,12 @@ var cake = parseInt(numPeople) * 4;
 
 //find out how much butter is needed for dipping lobster
 var butter = parseInt(numPeople) * 4 / 8;
-console.log(butter);
+//console.log(butter);
+
+//create an array for prices of components
+var prices = [(Number(corn) *.75), Number(butter) * 1.25, Number(lobsters) * 6.75];
+
+//calculate total meal cost per person
+var pricePP = (Number(prices[0]) + Number(prices[1]) + Number(prices[2]) / Number(numPeople));
+console.log(pricePP);
 
