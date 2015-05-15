@@ -6,6 +6,7 @@
 
 alert("testing to see if connected");
  */
+
 //find out users name
 var name = prompt("Hey there, what is your name?");
 console.log(name + "'s Lobster Dinner");
@@ -20,7 +21,7 @@ var numPeople = prompt("How many people would you be planning this dinner for?")
 var lobsters = prompt("How many lobsters a piece do you think they'll each want?");
 
 //calculate how many lobsters each
-lobsters *= Number(numPeople)
+lobsters *= Number(numPeople);
 console.log("Total lobsters needed: " + lobsters);
 
 //convert number of lobsters to pounds of lobster
@@ -29,11 +30,11 @@ console.log("Total pounds of lobster: " + lobsters);
 
 //find out how many ears of corn
 var corn = parseInt(numPeople) * 1;
-console.log(corn + " ears of corn")
+console.log(corn + " ears of corn");
 
 //find out how much cake to bake
 var cake = parseInt(numPeople) * 4;
-console.log(cake + " square inches of blueberry cake")
+console.log(cake + " square inches of blueberry cake");
 
 
 //find out how many sticks of butter are needed for dipping lobster, number of people multiplied by 4 tbsp butter each, divided by 8 tbsp in a stick of butter
