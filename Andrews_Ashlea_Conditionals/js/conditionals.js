@@ -5,9 +5,9 @@
 Conditionals Worksheet
 
  alert("testing to see if connected");
- */
 
-var kidHeight = 47;
+*/
+var kidHeight = 52;
 var minHeight = 48;
 
 
@@ -18,8 +18,8 @@ if(kidHeight > 48){
     //code performed if condition is true
     console.log("You can ride the coaster!");
 }
-
-if(kidHeight < minHeight){
+//if the condition is false
+else{
  console.log("Sorry kid, you've got some growing to do!")
 
 };
