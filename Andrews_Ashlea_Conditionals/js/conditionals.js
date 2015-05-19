@@ -7,11 +7,12 @@ Conditionals Worksheet
  alert("testing to see if connected");
  */
 
-var oldEnough = false;
+var kidHeight = 30;
 
 //if the child is old enough, print to the console "you can ride!"
+//if the kid is over 48 in in height
 
-if(oldEnough){
+if(kidHeight > 48){
     //code performed if condition is true
     console.log("You can ride the coaster!");
 }
