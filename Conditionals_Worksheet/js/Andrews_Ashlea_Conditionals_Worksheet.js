@@ -60,3 +60,25 @@ else if(grade >=85 && grade <= 89){
 
     */
 
+//Group 3
+//Tire Pressure
+
+//find out pressure of tires
+var firstTire = prompt("Hey there, let's figure out if your tires will pass inspection! \nWhat is the pressure of your front left tire?");
+
+var secondTire = prompt("Alrighty, what is the pressure of your front right tire?");
+
+var thirdTire = prompt("And your rear left tire, what its pressure?");
+
+var fourthTire = prompt("Last, how about that rear right tire?");
+
+//create array for tire pressures
+
+var tirePressures = [firstTire, secondTire, thirdTire, fourthTire]
+
+//if first tire is the same as the second and the third is the same as the fourth, the car passes, if not, it does not pass
+if(tirePressures[0] ===tirePressures[1] && tirePressures[2] ===tirePressures[3]){
+    console.log("The tires pass spec!");
+}else{
+    console.log("Get your tires checked out!");
+}
