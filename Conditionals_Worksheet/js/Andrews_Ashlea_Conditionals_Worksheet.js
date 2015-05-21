@@ -2,7 +2,7 @@
 Conditionals Worksheet
 Ashlea Andrews
 section 01
-
+*/
 
 //alert("testing connection");
 
@@ -58,7 +58,7 @@ else if(grade >=85 && grade <= 89){
     console.log("Yikes! You have a " + grade + "% which means you have earned an F in the class!");
 }
 
-    */
+
 
 //Group 3
 //Tire Pressure
@@ -76,9 +76,11 @@ var fourthTire = prompt("Last, how about that rear right tire?");
 
 var tirePressures = [firstTire, secondTire, thirdTire, fourthTire]
 
-//if first tire is the same as the second and the third is the same as the fourth, the car passes, if not, it does not pass
+//if first tire is the same as the second and the third is the same as the fourth, the car passes
 if(tirePressures[0] ===tirePressures[1] && tirePressures[2] ===tirePressures[3]){
     console.log("The tires pass spec!");
+
+    //if they don't it doesn't pass
 }else{
     console.log("Get your tires checked out!");
 }
