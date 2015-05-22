@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b324f186-b240-424e-be62-28a3d79d97c3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Andrews_Ashlea_Conditionals/Andrews_Ashlea_Conditionals_Assignment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Andrews_Ashlea_Conditionals/js/Andrews_Ashlea_Conditionals_Assignment.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Andrews_Ashlea_Conditionals_Assignment/js/Andrews_Ashlea_Conditionals_Assignment.js" afterPath="$PROJECT_DIR$/Andrews_Ashlea_Conditionals_Assignment/js/Andrews_Ashlea_Conditionals_Assignment.js" />
     </list>
     <ignored path="Andrews_Ashlea_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="Andrews_Ashlea_Conditionals_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Andrews_Ashlea_Conditionals_Assignment/js/Andrews_Ashlea_Conditionals_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45876288">
-              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.58055925">
+              <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -431,8 +430,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Andrews_Ashlea_Conditionals_Assignment/js/Andrews_Ashlea_Conditionals_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45876288">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.58055925">
+          <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
