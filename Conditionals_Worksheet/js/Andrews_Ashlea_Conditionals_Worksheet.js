@@ -2,7 +2,7 @@
 Conditionals Worksheet
 Ashlea Andrews
 section 01
-
+ */
 
 //alert("testing connection");
 
@@ -58,7 +58,7 @@ else if(grade >=85 && grade <= 89){
     console.log("Yikes! You have a " + grade + "% which means you have earned an F in the class!");
 }
 
- */
+
 
 //Group 3
 //Tire Pressure
