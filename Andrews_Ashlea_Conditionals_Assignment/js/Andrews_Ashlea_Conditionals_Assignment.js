@@ -49,5 +49,5 @@ if(lobSize ==="small" || lobSize ==="smallest" || lobSize ==="smallest lobsters"
  console.log("You should get at least " + (parseInt(numPeople) * parseInt(lobEach) * 2) + " pounds of lobster to be safe.");
 
 }if(landLubbers ==="Yes" || landLubbers ==="yes"){
- console.log("Don't forget about a substitue for your non-seafood eaters!");
+ console.log("Don't forget about an alternative for your non-seafood eaters!");
 }
