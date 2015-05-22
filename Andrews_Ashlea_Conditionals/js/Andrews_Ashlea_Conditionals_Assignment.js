@@ -32,7 +32,7 @@ if(landLubbers ===""){
 var lobEach = prompt("Usually for dinners people have one or two lobsters a piece.  Which would you like to offer? 1 per person, or 2 per person?");
  //validate prompt
 if(lobEach===""){
- lobEach = prompt("This is important information as well, please don't skip over it.  Will you be offering 1 lobster or 2 lobsters for each person?")
+ lobEach = prompt("This is important information as well, please don't skip over it.  Will you be offering 1 lobster or 2 lobsters for each person?");
 } console.log("Each person will be having " + lobEach + " lobsters a piece.");
 
 //Find out what size lobster is desired.
@@ -40,12 +40,12 @@ var lobSize = prompt("The most common (and yummy) lobsters area a pound and a qu
 
 //Figure out pounds needed of lobster
 if(lobSize ==="small" || lobSize ==="smallest" || lobSize ==="smallest lobsters"){
- console.log("You will need " + (numPeople * parseInt(lobEach) * 1.25) + " pounds of lobster.");
+ console.log("You will need " + (parseInt(numPeople) * parseInt(lobEach) * 1.25) + " pounds of lobster.");
 
 }else if(lobSize ==="large" || lobSize ==="larger" || lobSize ==="large lobsters"){
- console.log("You will need " + (numPeople * parseInt(lobEach) * 1.5) + " pounds of lobster.");
+ console.log("You will need " + (parseInt(numPeople) * parseInt(lobEach) * 1.5) + " pounds of lobster.");
 
 }else if(lobSize ==="largest" || lobSize ==="largest lobsters" || lobSize ==="biggest"){
- console.log("You will need " (numPeople * parseInt(lobEach) * 2) + " pounds of lobster.");
+ console.log("You will need " (parseInt(numPeople) * parseInt(lobEach) * 2) + " pounds of lobster.");
 
 }
