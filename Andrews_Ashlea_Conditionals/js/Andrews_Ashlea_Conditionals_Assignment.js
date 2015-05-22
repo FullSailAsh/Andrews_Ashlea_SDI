@@ -36,4 +36,16 @@ if(lobEach===""){
 } console.log("Each person will be having " + lobEach + " lobsters a piece.");
 
 //Find out what size lobster is desired.
-var lobSize = prompt("The most common (and yummy) lobsters area a pound and a quarter, and a pound and a half.  Which ");
+var lobSize = prompt("The most common (and yummy) lobsters area a pound and a quarter, and a pound and a half. There are also usually two pound lobsters available. Will you be offering the small, large, or largest sized lobsters?");
+
+//Figure out pounds needed of lobster
+if(lobSize ==="small" || lobSize ==="smallest" || lobSize ==="smallest lobsters"){
+ console.log("You will need " + (numPeople * parseInt(lobEach) * 1.25) + " pounds of lobster.");
+
+}else if(lobSize ==="large" || lobSize ==="larger" || lobSize ==="large lobsters"){
+ console.log("You will need " + (numPeople * parseInt(lobEach) * 1.5) + " pounds of lobster.");
+
+}else if(lobSize ==="largest" || lobSize ==="largest lobsters" || lobSize ==="biggest"){
+ console.log("You will need " (numPeople * parseInt(lobEach) * 2) + " pounds of lobster.");
+
+}

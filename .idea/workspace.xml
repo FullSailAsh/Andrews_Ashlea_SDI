@@ -26,8 +26,8 @@
       <file leaf-file-name="Andrews_Ashlea_Conditionals_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Andrews_Ashlea_Conditionals/js/Andrews_Ashlea_Conditionals_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8646907">
-              <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
+            <state vertical-scroll-proportion="0.4974227">
+              <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -98,8 +98,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="23" />
+    <option name="x" value="-76" />
+    <option name="y" value="27" />
     <option name="width" value="896" />
     <option name="height" value="873" />
   </component>
@@ -280,7 +280,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="23" width="896" height="873" extended-state="0" />
+    <frame x="-76" y="27" width="896" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -461,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Andrews_Ashlea_Conditionals/js/Andrews_Ashlea_Conditionals_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8646907">
-          <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
+        <state vertical-scroll-proportion="0.4974227">
+          <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
