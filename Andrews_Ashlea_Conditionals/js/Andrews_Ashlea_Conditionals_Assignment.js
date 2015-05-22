@@ -18,7 +18,14 @@ var numPeople = prompt("Hi! Let's find out how much lobster you'll need for your
 //validate prompt
 if(numPeople===""){
 numPeople=prompt("Oops! We need to know how many people will be having lobster, please don't leave this blank!");
-} console.log("There will be " + numPeople +" people having lobster.");
+} console.log("There will be " + numPeople +" people at dinner.");
+
+//find out if there are any non-seafood eaters
+var landLubbers = prompt("Are there any people who don't like (or are allergic to) seafood?");
+if(landLubbers ===""){
+ landLubbers = prompt("Oops, this is an important question to answer! \nAre there any people that don't like (or are allergic to) seafood?")
+}
+(landLubbers ==="Yes" || landLubbers ==="yes") ? console.log("You'll probably want to be sure to get some chicken too!") : console.log("Perfect! You only need to worry about buying lobsters!");
 
 
 //Find out how many lobsters a piece everyone will be having
@@ -27,3 +34,6 @@ var lobEach = prompt("Usually for dinners people have one or two lobsters a piec
 if(lobEach===""){
  lobEach = prompt("This is important information as well, please don't skip over it.  Will you be offering 1 lobster or 2 lobsters for each person?")
 } console.log("Each person will be having " + lobEach + " lobsters a piece.");
+
+//Find out what size lobster is desired.
+var lobSize = prompt("The most common (and yummy) lobsters area a pound and a quarter, and a pound and a half.  Which ");
