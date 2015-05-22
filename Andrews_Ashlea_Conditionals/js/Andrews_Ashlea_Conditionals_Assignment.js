@@ -40,12 +40,14 @@ var lobSize = prompt("The most common (and yummy) lobsters area a pound and a qu
 
 //Figure out pounds needed of lobster
 if(lobSize ==="small" || lobSize ==="smallest" || lobSize ==="smallest lobsters"){
- console.log("You will need " + (parseInt(numPeople) * parseInt(lobEach) * 1.25) + " pounds of lobster.");
+ console.log("You should get " + (parseInt(numPeople) * parseInt(lobEach) * 1.25) + " pounds of lobster to be safe.");
 
 }else if(lobSize ==="large" || lobSize ==="larger" || lobSize ==="large lobsters"){
- console.log("You will need " + (parseInt(numPeople) * parseInt(lobEach) * 1.5) + " pounds of lobster.");
+ console.log("You should get " + (parseInt(numPeople) * parseInt(lobEach) * 1.5) + " pounds of lobster to be safe.");
 
 }else if(lobSize ==="largest" || lobSize ==="largest lobsters" || lobSize ==="biggest"){
- console.log("You will need " (parseInt(numPeople) * parseInt(lobEach) * 2) + " pounds of lobster.");
+ console.log("You should get at least" (parseInt(numPeople) * parseInt(lobEach) * 2) + " pounds of lobster to be safe.");
 
+}if(landLubbers ==="Yes" || landLubbers ==="yes"{
+ console.log("Don't forget about a substitue for your non-seafood eaters!");
 }
