@@ -30,4 +30,4 @@ function numBees(){ //defines the function
     var stings = weight * 8.666666667;
     return stings; //puts information out of function
 }
-console.log("It takes " + totalBees + " bee stings to kill this animal.");
+console.log("It takes " + totalBees + " bee stings to kill this animal."); //print result
