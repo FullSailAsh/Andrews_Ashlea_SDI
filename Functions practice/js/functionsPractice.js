@@ -32,11 +32,25 @@ function(w, h){ // same as w=30 and h=20
     var area = w * h;
     console.log(area);
 }
- */
+
 
 function dogYears(age){
     var dogYears = age * 7;
     console.log("Sparky is " + dogYears + " years old");
 }
 
-dogYears(5);
+var age1 = 4;
+
+dogYears(age1);
+dogYears(4); //passing the value 4 to age
+dogYears(5); //passing the value 5 to age
+
+ */
+
+var total = calcArea(30, 20); //invoking function, need to establish where it's stored ...telling it to store area in variable "total"
+
+function calcArea(w, h){
+    var area = w * h;
+    return area; //function spitting the info out
+}
+console.log(total);
