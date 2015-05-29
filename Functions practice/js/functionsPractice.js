@@ -45,7 +45,7 @@ dogYears(age1);
 dogYears(4); //passing the value 4 to age
 dogYears(5); //passing the value 5 to age
 
- */
+
 
 var total = calcArea(30, 20); //invoking function, need to establish where it's stored ...telling it to store area in variable "total"
 
@@ -54,3 +54,20 @@ function calcArea(w, h){
     return area; //function spitting the info out
 }
 console.log(total);
+
+ */
+
+//anonymous functions
+//also called closures, creates and executes at the same time
+
+//var functionName = function(){
+    //code to run
+//}
+
+var calcArea = function(w, h){
+    var area = w * h;
+    return area; //function spitting the info out
+}
+var a = calcArea(20, 30);
+
+console.log(a);
