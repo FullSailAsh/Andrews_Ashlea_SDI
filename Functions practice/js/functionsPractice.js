@@ -60,14 +60,12 @@ console.log(total);
 //anonymous functions
 //also called closures, creates and executes at the same time
 
-//var functionName = function(){
-    //code to run
-//}
 
-var calcArea = function(w, h){
+var calcArea = function(w, h){ //defining function, must be first in anonymous
     var area = w * h;
     return area; //function spitting the info out
 }
-var a = calcArea(20, 30);
+var a = calcArea(20, 30); //invoking function, has to happen after in anonymous
 
 console.log(a);
+
