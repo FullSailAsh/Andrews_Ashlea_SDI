@@ -18,16 +18,17 @@ var numTraps = prompt("How many traps do you plan on hauling each day?"); //user
  numTraps = prompt("I'm sorry, please enter the number of traps you plan to be hauling each day. \nThis needs to be a numerical value."); //reprompt
 }
 
-var numTimes = prompt("How many days will you be hauling your traps this week?"); //find out how many days the traps will be hauled
-while(numTimes ==="" || isNaN(numTimes)) { //validate user input as not blank, and an number
- numTimes = prompt("I'm sorry, we need to know how many days you'll be hauling this week.\nThis needs to be a numerical value."); //reprompt
+var numTimes = prompt("How many days do you plan to go hauling?"); //find out how many days user will be hauling
+while(numTimes ==="" || isNaN(numTimes)) { //will reprompt if user input is blank or not a number
+ numTimes = prompt("I'm sorry, please enter the number of days you plan to go hauling."); //reprompt
 }
 
- var howMuch = ("How much bait are planning to use in each trap?  The most common increments of pounds are 2, 2.5, and 3"); //find out how much bait per trap user is planning to use.
- while(howMuch ==="" || isNaN(howMuch)){ //validate with while loop that user has put in proper variable
-  howMuch = prompt("I'm sorry, please tell us how much bait, in pounds, you'll be using per trap.\nThis should be a numerical value."); //reprompt
+var howMuch = prompt("How much bait are you planning on using per trap?"); //user input, how much bait per trap
+while(howMuch ==="" || isNaN(howMuch)){ //will reprompt if user input is blank or not a number
+ howMuch = prompt("I'm sorry, please enter how much bait you plan on using per trap.  The most common amounts are 2 pounds, 2.5 pounds, and 3 pounds per trap."); //reprompt
+}
 
- }
+
 
 var calcBait = function(traps, times, amt){ //defining the function
  var totalBait = parseInt(traps) * parseInt(times) * parseInt(amt); //doing the math
@@ -39,9 +40,9 @@ console.log("That comes out to " + poundsBait + " pounds of bait."); //print the
 
 //find out how many barrels of bait that translates into using an anonymous function
 
-var numBarrels = numBees(); //set up place for return
+var numBarrels = barrelsBait(); //set up place for return
 
-function numBees(){ //defines the function
+function barrelsBait(){ //defines the function
  var barrels = poundsBait / 500; //compute
  return barrels; //puts information out of function
 }
