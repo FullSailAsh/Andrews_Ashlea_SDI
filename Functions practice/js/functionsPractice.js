@@ -21,7 +21,6 @@ calcArea();
 //invocation : "calling the function"
 
 
-
 //argument and parameter
 
 calcArea(30, 20);
