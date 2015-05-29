@@ -29,5 +29,12 @@ while(numTimes ==="" || isNaN(numTimes)) { //validate user input as not blank, a
 
  }
 
+var calcBait = function(traps, times, amt){ //defining the function
+ var totalBait = parseInt(traps) * parseInt(times) * parseInt(amt); //doing the math
+ return totalBait; //putting the information out of the function
+}
+var poundsBait = calcBait(numTraps, numTimes, howMuch); //invoking the function
+
+console.log("You will need " + poundsBait + " pounds of bait to go hauling this week."); //print the results
 
 
