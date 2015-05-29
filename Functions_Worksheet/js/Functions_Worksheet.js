@@ -20,7 +20,7 @@ console.log("The circumference of the circle is " + output); //printing results
 
 
 //Stung!
-//Calculate how many stings needed to kill an animal based on animals weight in pounds
+//Calculate how many stings needed to kill an animal based on animals weight in pounds using a regular function
 
 var weight = prompt("How many pounds did the victim weigh?"); //find out how much the victim weighed
 
