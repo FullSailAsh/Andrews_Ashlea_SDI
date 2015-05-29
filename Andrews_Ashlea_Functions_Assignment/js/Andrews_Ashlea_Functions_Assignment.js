@@ -35,6 +35,14 @@ var calcBait = function(traps, times, amt){ //defining the function
 }
 var poundsBait = calcBait(numTraps, numTimes, howMuch); //invoking the function
 
-console.log("You will need " + poundsBait + " pounds of bait to go hauling this week."); //print the results
+console.log("That comes out to " + poundsBait + " pounds of bait."); //print the results
 
+//find out how many barrels of bait that translates into using an anonymous function
 
+var numBarrels = numBees(); //set up place for return
+
+function numBees(){ //defines the function
+ var barrels = poundsBait / 500; //compute
+ return barrels; //puts information out of function
+}
+console.log("Which means you'll need " + numBarrels + " barrels to go hauling this week." ); //print result
