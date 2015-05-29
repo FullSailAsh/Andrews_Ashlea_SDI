@@ -47,3 +47,33 @@ function barrelsBait(){ //defines the function
  return barrels; //puts information out of function
 }
 console.log("Which means you'll need " + numBarrels + " barrels to go hauling this week." ); //print result
+
+
+//Test functions
+
+
+//I entered 400 traps
+// 2 days
+// 2 pounds of bait
+//Calculator gave me
+//1600 pounds --correct
+//3.2 barrels --correct
+
+//I entered cat
+//calculator reprompted
+//entered ""
+//calculator reprompted
+//entered 2
+//next prompt entered ten
+//reprompted
+//entered ""
+//reprompted
+//entered 10
+//next prompt entered three
+//reprompted
+//entered ""
+//reprompted
+//entered 3
+//calculator gave me
+//60 pounds --correct
+//.12 barrels --correct
