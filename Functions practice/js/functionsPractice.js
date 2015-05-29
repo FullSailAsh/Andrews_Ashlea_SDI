@@ -54,7 +54,7 @@ function calcArea(w, h){
 }
 console.log(total);
 
- */
+
 
 //anonymous functions
 //also called closures, creates and executes at the same time
@@ -68,3 +68,13 @@ var a = calcArea(20, 30); //invoking function, has to happen after in anonymous
 
 console.log(a);
 
+ */
+
+//while loops, similar to if statement
+
+var b = 10; //sets up the index
+
+while (b > 0){ //checks the condition
+    console.log(b + " kegs on the wall");
+    b --; //increments or decrements the index
+}
